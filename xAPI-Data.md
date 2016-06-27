@@ -735,9 +735,9 @@ properties in this case.
 		<td>Optional</td>
 	</tr>
 	<tr>
-		<td><a href="#acturi">id</a></td><td>IRI</td>
+		<td><a href="#acturi" name="#2441tableid" id="2441tableid">id</a></td><td>IRI</td>
 		<td>An identifier for a single unique Activity</td>
-		<td><a name="#2441tableid" id="2441tableid"/>Required</td>
+		<td>Required</td>
 	</tr>
 	<tr>
 		<td><a href="#actdef">definition</a></td>
@@ -755,30 +755,34 @@ when a conflict with another system occurs, it’s not possible to determine whi
 
 ###### <a name="actdef" />Activity Definition
 The table below lists the properties of the Activity Definition Object:
-
+<a href="#2441table2row1">name</a>
+<a href="#2441table2row2">desc</a>
+<a href="#2441table2row3">type</a>
+<a href="#2441table2row4">info</a>
+<a href="acttype">acttype</a>
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
 	<tr>
-		<td>name</td>
+		<td><a name="#2441table2row1" id="2441table2row1"></a>name</td>
 		<td><a href="#misclangmap">Language Map</a></td>
 		<td>The human readable/visual name of the Activity</td>
 		<td>Recommended</td>
 	</tr>
 	<tr>
-		<td>description</td>
+		<td><a name="#2441table2row2" id="2441table2row2"></a>description</td>
 		<td><a href="#misclangmap">Language Map</a></td>
 		<td>A description of the Activity</td>
 		<td>Recommended</td>
 	</tr>
 	<tr>
 		<a name="acttype"/>
-		<td>type</td>
+		<td><a name="#2441table2row3" id="2441table2row3"></a>type</td>
 		<td>IRI</td>
 		<td>The type of Activity.</td>
 		<td>Recommended</td>
 	</tr>
 	<tr>
-		<td>moreInfo</td>
+		<td><a name="#2441table2row4" id="2441table2row4"></a>moreInfo</td>
 		<td>IRL</td>
 		<td>Resolves to a document with human-readable information about the Activity, 
 		which could include a way to launch the activity.
