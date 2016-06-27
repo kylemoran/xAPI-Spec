@@ -854,28 +854,28 @@ requiring richer interactions definitions will do so through the use of Activity
 ###### Details
 
 The table below lists the properties for Interaction Activities.
-<a href="#2441table2row1">interactionType</a>
-<a href="#2441table2row2">pattern</a>
-<a href="#2441table2row3">choices</a>
+<a href="#2441table3row1">interactionType</a>
+<a href="#2441table3row2">pattern</a>
+<a href="#2441table3row3">choices</a>
 
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
 	<tr>
-		<td><a name="#2441table2row1" id="2441table2row1"></a>interactionType</td>
+		<td><a name="#2441table3row1" id="2441table3row1"></a>interactionType</td>
 		<td>String</td>
 		<td>The type of interaction. Possible values are: “true-false”, “choice”, “fill-in”, “long-fill-in”,
 		“matching”, “performance”, “sequencing”, “likert”, “numeric” or “other”. </td>
 		<td>Required</td>
 	</tr>
 	<tr>
-		<td><a name="#2441table2row2" id="2441table2row2"></a>correctResponsesPattern</td>
+		<td><a name="#2441table3row2" id="2441table3row2"></a>correctResponsesPattern</td>
 		<td>An array of strings</td>
 		<td>A pattern representing the correct response to the interaction. The structure of this pattern varies
 		depending on the interactionType. This is detailed below. </td>
 		<td>Optional</td>
 	</tr>
 	<tr>
-		<td><a name="#2441table2row3" id="2441table2row3"></a>choices | scale | source | target | steps</td>
+		<td><a name="#2441table3row3" id="2441table2row3"></a>choices | scale | source | target | steps</td>
 		<td>Array of interaction components</td>
 		<td>Specific to the given interactionType (<a href="#interactionComponentLists">see below</a>).</td>
 		<td>Optional</td>
