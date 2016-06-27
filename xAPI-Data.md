@@ -719,6 +719,7 @@ The properties of an Object change according to the objectType.
 
 A Statement can represent an Activity as the Object of the Statement. The following table lists the Object 
 properties in this case.
+<a href="#2441table1id" id/>
 
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
@@ -729,7 +730,7 @@ properties in this case.
 		<td>Optional</td>
 	</tr>
 	<tr>
-		<td><a href="#acturi">id</a></td><td>IRI</td>
+		<td><a href="#acturi" name="#2441table1id" id="2.441tableid">id</a></td><td>IRI</td>
 		<td>An identifier for a single unique Activity</td>
 		<td>Required</td>
 	</tr>
