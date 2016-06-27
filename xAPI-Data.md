@@ -721,6 +721,7 @@ A Statement can represent an Activity as the Object of the Statement. The follow
 properties in this case.
 <a href="#2441tableid"> id </a>
 <a href="#2441table1id"> id </a>
+<a href="#2441tabledef"> def </a>
 
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
@@ -733,14 +734,14 @@ properties in this case.
 	<tr>
 		<td><a href="#acturi" name="#2441table1id" id="2.441table1id">id</a></td><td>IRI</td>
 		<td>An identifier for a single unique Activity</td>
-		<td>Required</td>
-		<a name="#2441tableid" id="2.441tableid"/>
+		<td><a name="#2441tableid" id="2.441tableid"> </a>Required</td>
 	</tr>
 	<tr>
 		<td><a href="#actdef">definition</a></td>
 		<td>Object</td>
 		<td>Metadata, <a href="#actdef">See below</a></td>
 		<td>Optional</td>
+		<a name="#2441tabledef" id="2.441tabledef"></a>
 	</tr>
 </table>
 
