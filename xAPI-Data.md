@@ -315,7 +315,6 @@ The details of each property of a statement are described in the table below.
 <a href="#2.4tableid">ID</a>
 <a href="#2.4tableactorrequired">actor</a>
 <a href="#2.4tabletimestamp">timestamp</a>
-<a name="#2.4tabletimestamp" id = "2.4tabletimestamp"/>
 
 
 ###### Table 2.4
@@ -722,33 +721,29 @@ The properties of an Object change according to the objectType.
 A Statement can represent an Activity as the Object of the Statement. The following table lists the Object 
 properties in this case.
 <a href="#2441tableid"> id </a>
-<a href="#2441table1id"> id </a>
 <a href="#2441tabledef"> def </a>
-<a href="#2.4tabletimestamp2">timestamp</a>
+<a href="#2441objecttype">objectType</a>
 
 
 
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
 	<tr>
-		<td>objectType</td>
+		<td><a name="#2441objecttype" id="2441objecttype"/>objectType</td>
 		<td>String</td>
 		<td>MUST be "Activity" when present</td>
 		<td>Optional</td>
-		<a name="#2.4tabletimestamp2" id = "2.4tabletimestamp2"/>
 	</tr>
 	<tr>
 		<td><a href="#acturi">id</a></td><td>IRI</td>
 		<td>An identifier for a single unique Activity</td>
-		<td>Required</td>
-		<a name="#2441tableid" id="2441tableid"/>
+		<td><a name="#2441tableid" id="2441tableid"/>Required</td>
 	</tr>
 	<tr>
 		<td><a href="#actdef">definition</a></td>
-		<td>Object</td>
+		<td><a name="#2441tabledef" id="2441tabledef"></a>Object</td>
 		<td>Metadata, <a href="#actdef">See below</a></td>
 		<td>Optional</td>
-		<a name="#2441tabledef" id="2441tabledef"></a>
 	</tr>
 </table>
 
