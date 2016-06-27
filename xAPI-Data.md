@@ -317,6 +317,7 @@ The details of each property of a statement are described in the table below.
 <a href="#2.4tabletimestamp">timestamp</a>
 <a name="#2.4tabletimestamp" id = "2.4tabletimestamp"/>
 
+
 ###### Table 2.4
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
@@ -726,6 +727,7 @@ properties in this case.
 <a href="#2.4tabletimestamp2">timestamp</a>
 
 
+
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
 	<tr>
@@ -733,6 +735,7 @@ properties in this case.
 		<td>String</td>
 		<td>MUST be "Activity" when present</td>
 		<td>Optional</td>
+		<a name="#2.4tabletimestamp2" id = "2.4tabletimestamp2"/>
 	</tr>
 	<tr>
 		<td><a href="#acturi" name="#2441table1id" id="2.441table1id">id</a></td><td>IRI</td>
