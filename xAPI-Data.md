@@ -738,16 +738,17 @@ properties in this case.
 		<a name="#2.4tabletimestamp2" id = "2.4tabletimestamp2"/>
 	</tr>
 	<tr>
-		<td><a href="#acturi" name="#2441table1id" id="2.441table1id">id</a></td><td>IRI</td>
+		<td><a href="#acturi">id</a></td><td>IRI</td>
 		<td>An identifier for a single unique Activity</td>
-		<td><a name="#2441tableid" id="2.441tableid"> </a>Required</td>
+		<td>Required</td>
+		<a name="#2441tableid" id="2441tableid"/>
 	</tr>
 	<tr>
 		<td><a href="#actdef">definition</a></td>
 		<td>Object</td>
 		<td>Metadata, <a href="#actdef">See below</a></td>
 		<td>Optional</td>
-		<a name="#2441tabledef" id="2.441tabledef"></a>
+		<a name="#2441tabledef" id="2441tabledef"></a>
 	</tr>
 </table>
 
