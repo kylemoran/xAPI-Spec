@@ -315,6 +315,7 @@ The details of each property of a statement are described in the table below.
 <a href="#2.4tableid">ID</a>
 <a href="#2.4tableactorrequired">actor</a>
 <a href="#2.4tabletimestamp">timestamp</a>
+<a name="#2.4tabletimestamp" id = "2.4tabletimestamp"/>
 
 ###### Table 2.4
 <table>
@@ -722,6 +723,8 @@ properties in this case.
 <a href="#2441tableid"> id </a>
 <a href="#2441table1id"> id </a>
 <a href="#2441tabledef"> def </a>
+<a href="#2.4tabletimestamp2">timestamp</a>
+
 
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
