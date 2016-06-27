@@ -2079,7 +2079,7 @@ originally used in the statement so long as the point in time referenced is not 
 Durations are strings representing the amount of time something took.
 
 ###### Requirements
-
+<a href="#4.6bullet1"> bullet 1</a>
 * A Duration MUST be expressed using the format for duration in ISO 8601:2004(E) section 4.4.3.2.
 The alternative format (in conformity with the format used for time points and described in ISO 8601:2004(E)
 section 4.4.3.3) MUST NOT be used.<a name="#4.6bullet1" id="4.6bullet1"/>
