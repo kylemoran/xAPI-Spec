@@ -719,7 +719,8 @@ The properties of an Object change according to the objectType.
 
 A Statement can represent an Activity as the Object of the Statement. The following table lists the Object 
 properties in this case.
-<a href="#2441tableid" id </a>
+<a href="#2441tableid"> id </a>
+<a href="#2441table1id"> id </a>
 
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
