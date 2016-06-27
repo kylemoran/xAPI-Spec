@@ -313,6 +313,7 @@ This example Statement voids a previous Statement which it identifies with the S
 ###### Details
 The details of each property of a statement are described in the table below.  
 <a href="#2.4tableid">ID</a>
+<a href="#2.4tableactorrequired">actor</a>
 
 ###### Table 2.4
 <table>
@@ -323,7 +324,7 @@ The details of each property of a statement are described in the table below.
 	<tr><td><a href="#actor">actor</a></td><td>Object</td>
 	<td>Whom the Statement is about, as an <a href="#agent">Agent</a> or 
 		<a href="#group">Group</a> Object.</td>
-	<td><a name="2.4tableactorrequired"/>Required</td></tr>
+	<td><a name="#2.4tableactorrequired"/>Required</td></tr>
 	<tr><td><a href="#verb">verb</a></td><td>Object</td>
 	<td>Action taken by the Actor.</td>
 	<td>Required</td></tr>
