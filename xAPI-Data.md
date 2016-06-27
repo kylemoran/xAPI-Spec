@@ -2080,15 +2080,19 @@ Durations are strings representing the amount of time something took.
 
 ###### Requirements
 <a href="#4.6bullet1"> bullet 1</a>
-* A Duration MUST be expressed using the format for duration in ISO 8601:2004(E) section 4.4.3.2.
+<a href="#4.6bullet2"> bullet 2</a>
+<a href="#4.6bullet3"> bullet 3</a>
+<a href="#4.6bullet4"> bullet 4</a>
+<a href="#4.6bullet5"> bullet 5</a>
+* <a name="#4.6bullet1" id="4.6bullet1"/>A Duration MUST be expressed using the format for duration in ISO 8601:2004(E) section 4.4.3.2.
 The alternative format (in conformity with the format used for time points and described in ISO 8601:2004(E)
-section 4.4.3.3) MUST NOT be used.<a name="#4.6bullet1" id="4.6bullet1"/>
-* Learning Record Providers SHOULD provide a maximum precision of 0.01 seconds.
-* Learning Record Providers MAY provide less precision, for example in the case of reading a University Degree
+section 4.4.3.3) MUST NOT be used.
+* <a name="#4.6bullet2" id="4.6bullet2"/>Learning Record Providers SHOULD provide a maximum precision of 0.01 seconds.
+* <a name="#4.6bullet3" id="4.6bullet3"/>Learning Record Providers MAY provide less precision, for example in the case of reading a University Degree
 precision might be in months or years.
-* On receiving a Duration with more than 0.01 second precision, the LRS SHOULD* NOT reject the request but MAY
+* <a name="#4.6bullet4" id="4.6bullet4"/>On receiving a Duration with more than 0.01 second precision, the LRS SHOULD* NOT reject the request but MAY
 truncate the Duration property to 0.01 second precision.
-* When comparing Durations, any precision beyond 0.01 second precision SHOULD* NOT be included in the comparison.
+* <a name="#4.6bullet5" id="4.6bullet5"/>When comparing Durations, any precision beyond 0.01 second precision SHOULD* NOT be included in the comparison.
 
 ###### Examples
 The table below provides some example ISO 8601 durations. This list is not intended to be exhaustive.
