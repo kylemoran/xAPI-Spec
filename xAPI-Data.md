@@ -314,8 +314,9 @@ This example Statement voids a previous Statement which it identifies with the S
 The details of each property of a statement are described in the table below.  
 
 <a name="2.4table"/>
+###### Table 2.4
 <table>
-	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
+	<tr><th>######Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
 	<tr><a name="2.4tableid"/><td>id</td><td>UUID</td>
 	<td><a name="2.4tableuuid"/>UUID assigned by LRS if not set by the Learning Record Provider.</td>
 	<td>Recommended</td></tr>
