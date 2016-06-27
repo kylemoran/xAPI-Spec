@@ -314,17 +314,18 @@ This example Statement voids a previous Statement which it identifies with the S
 The details of each property of a statement are described in the table below.  
 <a href="#2.4tableid">ID</a>
 <a href="#2.4tableactorrequired">actor</a>
+<a href="#2.4tabletimestamp">timestamp</a>
 
 ###### Table 2.4
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
-	<tr><a name="#2.4tableid id" id = "2.4tableid"/><td>id</td><td>UUID</td>
+	<tr><a name="#2.4tableid" id = "2.4tableid"/><td>id</td><td>UUID</td>
 	<td><a name="#2.4tableuuid"/>UUID assigned by LRS if not set by the Learning Record Provider.</td>
 	<td>Recommended</td></tr>
 	<tr><td><a href="#actor">actor</a></td><td>Object</td>
 	<td>Whom the Statement is about, as an <a href="#agent">Agent</a> or 
 		<a href="#group">Group</a> Object.</td>
-	<td><a name="#2.4tableactorrequired"/>Required</td></tr>
+	<td><a name="#2.4tableactorrequired" id="2.4tableactorrequired"/>Required</td></tr>
 	<tr><td><a href="#verb">verb</a></td><td>Object</td>
 	<td>Action taken by the Actor.</td>
 	<td>Required</td></tr>
@@ -340,7 +341,7 @@ The details of each property of a statement are described in the table below.
 	working with, altitude at which a scenario was attempted in a flight simulator.</td>
 	<td>Optional</td></tr>
 	<tr><td><a href="#timestamp">timestamp</a></td><td><a href="#timestamps">Timestamp</a></td>
-	<td>Timestamp of when the events described within this Statement occurred. Set by the LRS if not provided.</td>
+	<td><a name="#2.4tabletimestamp" id = "2.4tabletimestamp"/>Timestamp of when the events described within this Statement occurred. Set by the LRS if not provided.</td>
 	<td>Optional</td></tr>
 	<tr><td><a href="#stored">stored</a></td><td><a href="#timestamps">Timestamp</a></td>
 	<td>Timestamp of when this Statement was recorded. Set by LRS.</td>
