@@ -320,7 +320,7 @@ The details of each property of a statement are described in the table below.
 ###### Table 2.4
 <table>
 	<tr><th>Property</th><th>Type</th><th>Description</th><th>Required</th></tr>
-	<tr><a name="#2.4tableid" id = "2.4tableid"/><td>id</td><td>UUID</td>
+	<tr><td><a name="#2.4tableid" id = "2.4tableid"/>id</td><td>UUID</td>
 	<td><a name="#2.4tableuuid"/>UUID assigned by LRS if not set by the Learning Record Provider.</td>
 	<td>Recommended</td></tr>
 	<tr><td><a href="#actor">actor</a></td><td>Object</td>
@@ -875,7 +875,7 @@ The table below lists the properties for Interaction Activities.
 		<td>Optional</td>
 	</tr>
 	<tr>
-		<td><a name="#2441table3row3" id="2441table2row3"></a>choices | scale | source | target | steps</td>
+		<td><a name="#2441table3row3" id="2441table3row3"></a>choices | scale | source | target | steps</td>
 		<td>Array of interaction components</td>
 		<td>Specific to the given interactionType (<a href="#interactionComponentLists">see below</a>).</td>
 		<td>Optional</td>
