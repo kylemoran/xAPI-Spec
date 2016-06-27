@@ -731,9 +731,10 @@ properties in this case.
 		<td>Optional</td>
 	</tr>
 	<tr>
-		<td><a href="#acturi" name="#2441table1id" id="2.441tableid">id</a></td><td>IRI</td>
+		<td><a href="#acturi" name="#2441table1id" id="2.441table1id">id</a></td><td>IRI</td>
 		<td>An identifier for a single unique Activity</td>
 		<td>Required</td>
+		<a name="#2441tableid" id="2.441tableid"/>
 	</tr>
 	<tr>
 		<td><a href="#actdef">definition</a></td>
